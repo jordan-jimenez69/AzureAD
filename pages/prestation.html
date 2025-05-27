@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA Compatible" content="IE-edge" />
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link rel="stylesheet" href="../css/style.css" />
+         <link rel="stylesheet" href="../css/navbar.css" />
+         <link rel="stylesheet" href="../css/links/presta.css" />
+
+        <title>Prestation</title>
+    </head>
+
+    <div class="flch">
+        <i class="fa-regular fa-circle-up fa-xl" style="color: rgb(59, 223, 127);"></i>
+    </div>
+    
+<body>
+
+        
+    <header>
+
+        <section class="nav-home"> 
+
+
+                <div class="navbar">
+                    <a href="#" class="logo">DEVELOPEMENT</a>
+        
+                    <ul class="links">
+                        <li><a class="anim" href="../home.html">Accueil</a></li>
+                        <li><a class="anim" href="prestation.html"><span>Prestations</span></a></li>
+                        <li><a class="anim" href="contact.html">Contact</a></li>
+                        <li><a class="anim" href="réalisations.html">Réalisations</a></li>
+                    </ul>
+
+                    <div class="phone-icon">
+                        <a href="tel:+33761421970">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                    <div class="toggle_btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+        
+                <div class="dropdown_menu open">
+                    <ul class="links">
+                        <li><a href="pages/accueil.html">accueil</a></li>
+                        <li><a href="pages/contact.html">contact</a></li>
+                        <li><a href="pages/prestation.html">prestation</a></li>
+                        <li><a href="pages/accueil.html">Localisation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        
+<script type="text/javascript">
+    document.addEventListener("scroll", () => {
+        const nav = document.querySelector('nav')
+
+        if(window.scrollY > 0) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }       
+    });
+   
+
+</script>
+
+
+
+<div class="assemblage">
+
+    <div class="accueil">
+        <h1>Nos prestation</h1> <br><br>
+        <h4>Nous offrons un éventail varié de services en conception graphique, création de site internet et webmarketing.<br></h4>
+    </div>
+
+
+
+    <div class="img_home">
+        <img src= "../img/presta.png" alt="#">
+    </div>
+
+</div>
+
+
+
+<section class="services">
+
+
+
+    <div class="trait">
+
+    </div>
+
+    <div class="site">
+
+        <div class="vitrine">
+            <div class="gauche-list">
+            <h3>Site Vitrine</h3>
+            <br><p>Votre carte de visite en ligne. Met en avant votre entreprise, ses atouts, et attire l'attention des visiteurs.</p><br>    
+        </div>
+            <img class="img-vitrine" src="../img/vit.png" alt="">
+            
+            <a href="list/vitrine.html" class="contact_button">
+                En savoir plus
+            </a>
+        </div>
+       
+
+        <div class="e-commerce">
+            <div class="gauche-list">
+            <h3>Site e-commerce</h3>
+            <br><p>Votre plateforme de vente en ligne, où vous offrez directement vos produits et services aux clients via Internet.</p><br>
+
+        </div>
+            <img class="img-vitrine" src="../img/e(commerce.png" alt="">
+
+            <a href="list/e-commerce.html" class="contact_button">
+                En savoir plus
+            </a>
+        </div>
+
+        <div class="SEO">
+            <div class="gauche-list">
+            <h3>SEO</h3>
+            <br><p>Améliorez votre visibilité en ligne pour un meilleur classement sur les moteurs de recherche et attirez plus de visiteurs.</p><br>
+
+        </div>
+            <img class="img-vitrine" src="../img/hebergement.png" alt="">
+
+            <a href="list/seo.html" class="contact_button">
+                En savoir plus
+            </a>
+        </div>
+
+        <div class="Heberg">
+            <div class="gauche-list">
+            <h3>Hebergement</h3>
+            <br><p>L'endroit où votre site web réside en permanence sur Internet, un peu comme sa résidence virtuelle.</p><br>
+
+        </div>
+            <img class="img-vitrine" src="../img/hebergement.png" alt="">
+
+          <a href="list/hebergement.html" class="contact_button">
+                En savoir plus
+            </a>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+</section>
+
+
+
+<script src="../js/dropdown.js"></script>
+<script src="../js/flch.js"></script>
+<script src="../js/nav.js"></script>

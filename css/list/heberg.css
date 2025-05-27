@@ -1,0 +1,144 @@
+h2 {
+    font-size: 200%;
+}
+
+h3 {
+    margin-bottom: 10%;
+    font-size: 130%;
+}
+
+p{
+    font-size: 120%;
+}
+
+
+
+.entet-hebergement{
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+}
+
+.titre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 160%;
+    margin-bottom: 3%;
+    color: rgba(56, 90, 100, 0.8); 
+
+}
+
+.texte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    width: 70%;
+    font-size: 140%;
+}
+
+.trait{
+    content: "";
+    display: block;
+    align-items: center;
+    width: 30%;
+    margin-left: 35%;
+    height: 4px;
+    margin-top: 4%;
+    background-color: rgba(56, 90, 100, 0.8); 
+    margin-bottom: 4%;      
+    }
+
+
+
+
+
+
+
+    .site{
+
+        width: 68%;
+        margin-left: 15%;
+        margin-bottom: 2%;
+        margin-top: 3%;
+        display: flex;
+        align-items: center;
+     }
+     
+     .Responsive{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding: 1%;
+        background-color: rgba(56, 90, 100, 0.8); 
+        margin-right: 2%;
+        border-radius: 20px;
+     }
+     
+     .Controle{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding: 1%;
+        background-color: rgba(56, 90, 100, 0.8); 
+        border-radius: 20px;
+     }
+     
+     
+     .site-2{
+        width: 68%;
+        margin-left: 15%;
+        display: flex;
+        align-items: center;
+        padding-bottom: 50px;
+     }
+     
+     .Suivi{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding: 1%;  
+        background-color: rgba(56, 90, 100, 0.8); 
+        margin-right: 2%;
+        border-radius: 20px;
+        
+     }
+     
+     .Design{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding: 1%; 
+        background-color: rgba(56, 90, 100, 0.8); 
+        border-radius: 20px;
+     }
+     
+     .img-vitrine{
+         width: 80%;
+         margin-left: 10%;
+         margin-top: -5%;
+     }
+     
+     .img-site{
+         width: 80%;
+         margin-left: 10%;
+         margin-top: -5%;
+     }
+     
+     .gauche-list h3{
+         margin-top: 2%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         color: rgb(255, 255, 255);
+     }
+     
+     .gauche-list p{
+         width: 80%;
+         margin-left: 10%;
+     }
+
+     .texte-list{
+        color: rgb(255, 255, 255);
+    }

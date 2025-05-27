@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.932);
+    transition: 0.8s;
+}
+
+.navbar-back {
+    background-color: rgba(255, 255, 255, 0.932);
+    transition: 0.8s;
+  }
+
+
+.navbar  a{
+color: rgb(0, 0, 0);
+font-size: 1em;
+text-decoration: none;
+letter-spacing: 1px;
+
+}
+
+
+.navbar .links {
+    margin-right: -700px; 
+    display: flex;
+    gap: 2rem;
+}
+
+
+ul.links a.anim::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgba(59, 223, 127);
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+}
+
+ul.links a.anim:hover::after{
+    transform: scale(1);
+}
+
+.navbar .logo {
+    margin-left: 20px; 
+    color: rgb(59, 223, 127);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.phone-icon {
+    margin-right: 20px; 
+}
+
+.phone-icon i {
+    font-size: 1.2em; 
+}
+.phone-number {
+    color: #333;
+    font-weight: bold;
+    margin-left: 5px; 
+}
+
+.navbar .links ul{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.navbar .links ul  li{
+    position: relative;
+    margin: 0 20px;
+}
+
+
+.navbar .toggle_btn{
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    color: rgb(0, 0, 0);
+}
+
+/*----------------------------------------Dropdown Tel----------------------------------------*/
+
+.toggle_btn{
+    z-index: 1;
+}
+
+.dropdown_menu{
+   width: 0;
+   height: 0;
+   transition: ease-in-out 0.2s;}
+
+.dropdown_menu.open{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(56, 90, 100);
+    transition: ease-in-out 0.2s;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+
+}
+.no-scroll {
+    overflow: hidden;
+}
+
+.dropdown_menu.open li {
+    margin-top: 10%;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dropdown_menu.open a{
+    color: aliceblue;
+}
+
+
+
+/*----------------------------------------Responsive----------------------------------------*/
+
+@media(min-width: 1401px) {
+    .dropdown_menu.open{
+        display: none;
+    }
+}
+
+
+@media(min-width: 995px) and (max-width: 1400px)  {
+
+    .dropdown_menu.open{
+        display: none;
+    }
+
+    .navbar .links {
+        margin-right: 60px; 
+        display: flex;
+        gap: 2rem;
+    }
+
+
+    .navbar .links ul{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        .navbar .links ul  li{
+            position: relative;
+            margin: 0 20px;
+    
+        }
+}
+
+@media(min-width: 577px) and (max-width: 994px) {
+
+
+    .assemblage .accueil{
+        margin-top: 8%;
+    }
+
+    .navbar .links, .phone-icon{
+        display: none;
+    }
+
+    .navbar .toggle_btn {
+        display: block;
+        margin-right: 5%;
+        float: right;
+    }
+
+    .navbar{
+        position: absolute;
+    }
+
+
+}
+
+@media(min-width: 351px) and (max-width: 576px) {
+
+    .assemblage .accueil{
+        margin-top: 15%;
+    }
+
+    .navbar .links, .phone-icon{
+        display: none;
+    }
+
+    .navbar .toggle_btn {
+        display: block;
+        margin-right: 10%;
+
+    }
+
+    .navbar{
+        position: absolute;
+    }
+
+
+}
+
+
+@media(min-width: 1px) and (max-width: 350px) {
+
+
+    .assemblage .accueil{
+        margin-top: 20%;
+    }
+
+    .navbar .links, .logo{
+        display: none;
+    }
+
+    .navbar .toggle_btn {
+        display: block;
+        margin-right: 5%;
+
+    }
+
+    .navbar{
+        position: absolute;
+    }
+
+
+    .phone-icon{
+        margin-left: 5%;
+    }
+
+}

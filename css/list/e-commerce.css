@@ -1,0 +1,165 @@
+h2 {
+    font-size: 200%;
+}
+
+h3 {
+    margin-bottom: 10%;
+    font-size: 130%;
+}
+
+p{
+    font-size: 120%;
+}
+
+
+
+.entet-commerce{
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+}
+
+.titre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 160%;
+    margin-bottom: 3%;
+    color: rgba(96, 104, 202, 0.700); 
+
+}
+
+.texte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    width: 70%;
+    font-size: 140%;
+}
+
+.trait{
+    content: "";
+    display: block;
+    align-items: center;
+    width: 30%;
+    margin-left: 35%;
+    height: 4px;
+    margin-top: 4%;
+    background-color: rgba(96, 104, 202, 0.700); 
+    margin-bottom: 4%;      
+    }
+
+
+
+
+
+
+
+    .assemblage-Responsive{
+        width: 68%;
+        margin-left: 28%;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        background-color: rgba(96, 104, 202, 0.700);  
+        border-radius: 20px;
+    }
+     
+     .Responsive{
+        justify-content: center;
+        width: 40%;
+     }
+
+     .Responsive h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2%;
+        color: rgb(255, 255, 255);
+
+     }
+
+     .Responsive img{
+        margin-left:12%;
+     }
+
+     .texte-list-droite {
+        width: 57%;
+        margin-left: 3%;
+        color: rgb(255, 255, 255);
+        font-size: 120%;
+    }
+
+
+
+
+     .assemblage-controle{
+        width: 68%;
+        margin-left: 5%;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        background-color: rgba(96, 104, 202, 0.700);  
+        border-radius: 20px;
+    }
+     
+     .Controle{
+        justify-content: center;
+        width: 40%;
+     }
+
+     .Controle h3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2%;
+        color: rgb(255, 255, 255);
+
+     }
+
+     .Controle img{
+        margin-left: 8%;
+     }
+
+
+
+     .texte-list {
+        width: 60%;
+        color: rgb(255, 255, 255);
+        font-size: 120%;
+        align-items: center;
+
+    }
+    .check{
+       display: flex; 
+       align-items: center;
+       font-size: 120%;
+    }
+
+    
+     .img-vitrine{
+         width: 80%;
+         margin-top: -10%;
+     }
+     
+     .img-site{
+         width: 40%;
+         margin-top: -13%;
+     }
+     
+     
+     .gauche-list p{
+         width: 80%;
+         margin-left: 10%;
+     }
+
+     .check-icon {
+        color: rgb(253, 123, 169); /* Couleur personnalisée */
+        margin-right: 15px; /* Espacement entre l'icône et le texte */
+    }
+
+    .check-icon-2 {
+        color: rgb(253, 123, 169); /* Couleur personnalisée */
+        margin-right: 15px; /* Espacement entre l'icône et le texte */
+    }

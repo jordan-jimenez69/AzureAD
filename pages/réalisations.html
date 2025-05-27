@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA Compatible" content="IE-edge" />
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link rel="stylesheet" href="../css/style.css" />
+         <link rel="stylesheet" href="../css/navbar.css" />
+
+        <title>Réalisations</title>
+    </head>
+
+    <div class="flch">
+        <i class="fa-regular fa-circle-up fa-xl" style="color: rgb(138, 218, 255);"></i>
+    </div>
+    
+<body>
+
+        
+    <header>
+
+        <section class="nav-home"> 
+
+
+                <div class="navbar">
+                    <a href="#" class="logo">DEVELOPEMENT</a>
+        
+                    <ul class="links">
+                        <li><a class="anim" href="../home.html">Accueil</a></li>
+                        <li><a class="anim" href="prestation.html">Prestations</a></li>
+                        <li><a class="anim" href="contact.html">Contact</a></li>
+                        <li><a class="anim" href="réalisations.html"><span>Réalisations</span></a></li>
+                    </ul>
+
+                    <div class="phone-icon">
+                        <a href="tel:+33761421970">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                    <div class="toggle_btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+        
+                <div class="dropdown_menu open">
+                    <ul class="links">
+                        <li><a href="pages/accueil.html">accueil</a></li>
+                        <li><a href="pages/contact.html">contact</a></li>
+                        <li><a href="pages/prestation.html">prestation</a></li>
+                        <li><a href="pages/accueil.html">Localisation</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        
+<script type="text/javascript">
+    document.addEventListener("scroll", () => {
+        const nav = document.querySelector('nav')
+
+        if(window.scrollY > 0) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }       
+    });
+   
+
+</script>
+
+
+
+
+
+
+
+
+<script src="../js/dropdown.js"></script>
+<script src="../js/flch.js"></script>
+<script src="../js/nav.js"></script>
